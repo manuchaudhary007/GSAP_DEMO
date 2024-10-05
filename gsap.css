@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav h3{
+    font-weight: 100;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#main h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 350;
+    text-transform: uppercase;
+    line-height: 80px;
+    width: 80%;
+    position: relative;
+    z-index: 9;
+    margin-left: 10%;
+    margin-top: 8px;
+}
+#main h1:nth-child(2){
+    margin-top: 180px;
+}
+#main h1:nth-child(3){
+    text-align: center;
+}
+#main h1:nth-child(4){
+    text-align: center;
+}
+img{
+    height: 47%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+#img1{
+    rotate: 30deg;
+}
+#img2{
+    rotate: 20deg;
+}
+#lst{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+#lst h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+}
+#lst #fg{
+    width: 50%;
+}
+#nav-part3{
+    display: inline-block;
+    align-items: start;
+}
+
+
+
+
+
+
+
+
+
+
+
